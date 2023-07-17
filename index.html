@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @media (max-width: 1350px) {
+        .container {
+          border: none;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="flex-1 container mx-auto border-2 h-auto w-1/3 overflow-auto p-2"
+  >
+    <div class="flex flex-col max-w-lg mx-auto items-center justify-center m-4">
+      <select
+        name="category"
+        id="category"
+        class="block items-center border-2 px-28 mb-4"
+      >
+        <option value="start">Start</option>
+        <option value="length">Length</option>
+        <option value="digi">Digital Storage</option>
+        <option value="fuel">Fuel Economy</option>
+      </select>
+
+      <div class="flex items-center">
+        <div class="grid">
+          <input
+            type="text"
+            name="from-value"
+            id="from-value"
+            class="block border-2 mr-4 p-2"
+            placeholder="0"
+          />
+          <select
+            name="from-unit"
+            id="from-unit"
+            class="block border-2 mr-4 p-2"
+          ></select>
+        </div>
+        <div>
+          <p class="mr-4">=</p>
+        </div>
+        <div class="grid">
+          <input
+            type="text"
+            name="to-value"
+            id="to-value"
+            class="block border-2 p-2"
+            placeholder="0"
+          />
+          <select
+            name="to-unit"
+            id="to-unit"
+            class="block border-2 p-2"
+          ></select>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
