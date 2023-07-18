@@ -1,7 +1,7 @@
 {
   "name":"Mini Converter App",
   "version": "1.0.0",
-  "description": "This is an extentsion to convert different common units of measurement. Inspired by Google's converter.",
+  "description": "This is an extension to convert different common units of measurement. Inspired by Google's converter.",
   "manifest_version": 3,
   "author": "peggy.ou01@gmail.com",
   "action": {
