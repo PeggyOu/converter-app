@@ -7,5 +7,11 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Mini Converter App"
-}
+},
+    "icons": {
+    "16": "public/images/loop-arrowx16.png",
+    "32": "public/images/loop-arrowx32.png",
+    "64": "public/images/loop-arrowx64.png",
+    "128": "public/images/loop-arrowx128.png"
+  }
 }
